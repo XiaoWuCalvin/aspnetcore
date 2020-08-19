@@ -290,6 +290,8 @@ namespace Microsoft.AspNetCore
 
         public static string GetSharedFxVersion() => GetTestDataValue("SharedFxVersion");
 
+        public static string GetDefaultNetCoreTargetFramework() => GetTestDataValue("DefaultNetCoreTargetFramework");
+
         public static string GetMicrosoftNETCoreAppPackageVersion() => GetTestDataValue("MicrosoftNETCoreAppRuntimeVersion");
 
         public static string GetReferencePackSharedFxVersion() => GetTestDataValue("ReferencePackSharedFxVersion");
