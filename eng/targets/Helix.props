@@ -22,7 +22,7 @@
     <HelixUseArchive>false</HelixUseArchive>
     <LoggingTestingDisableFileLogging Condition="'$(IsHelixJob)' == 'true'">false</LoggingTestingDisableFileLogging>
     <NodeVersion>10.15.3</NodeVersion>
-    <AppRuntimeVersion>5.0.0-ci</AppRuntimeVersion>
+    <AppRuntimeVersion>6.0.0-ci</AppRuntimeVersion>
     <TestDependsOnAspNetRuntime>false</TestDependsOnAspNetRuntime>
   </PropertyGroup>
 
